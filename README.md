@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Customize Reuse demo
 
 A new Flutter project.
@@ -18,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 # electrical-tools
 # my-flutter-reuse-demo
 # my-flutter-reuse-demo
+=======
+# electrical-tools
+>>>>>>> 7370ffe5d869e7c22f70b1838c1df3dbfb351174
