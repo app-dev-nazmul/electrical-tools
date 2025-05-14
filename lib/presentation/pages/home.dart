@@ -1,3 +1,4 @@
+import 'package:electrical_tools/presentation/widgets/header_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
@@ -11,9 +12,7 @@ class HomePage extends StatelessWidget {
     bool isDesktop = ResponsiveBreakpoints.of(context).isDesktop;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Responsive Home Page'),
-      ),
+      appBar: HeaderMenu(),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
